@@ -1,0 +1,64 @@
+/* BLUE */
+
+body { background: #c5ccd3 url(bg-blue.png) repeat; }
+
+#outline { border: 1px solid #576675; }
+
+#wrapper { background: #fff url(border1.gif) repeat-x 0 260px; border: 15px solid #fff; }
+
+#header {
+	background: #C5CCD3 url(banner-blue.jpg) no-repeat;
+	border-bottom: 5px solid #fff;
+	color: #fff;
+}
+
+#headerBox { border: 1px solid #576675; color: #fff; }
+
+#footer { background: #fff url(border2.gif) repeat-x 0 0; border-top: 1px solid #576675; }
+
+#navTop a:hover { background-color: #0055cc; color: #fff; }
+#navTop #current a { background-color: #0074cc; color: #fff; }
+#navTop li ul { border: 0px solid #576675;	background: #0074cc;}
+#navTop li ul li a { color: #fff; }
+
+#sidebar ul { border-top: 1px solid #576675; }
+
+#sidebar li a:hover { color: #000; background: #e2e6e9; }
+
+#sidebar li a { color: #00488F;	border-bottom: 1px solid #576675; }
+
+a {	color: #00488F; }
+
+.border {
+	background-color: #e2e6e9;
+	border-top: 2px solid #576675;
+	border-bottom: 2px solid #576675;
+}
+
+img.left { border: 1px solid #576675; }
+img.right {	border: 1px solid #576675; }
+img.center { border: 1px solid #576675; }
+img:hover { border: 1px dashed #576675; }
+
+img  {
+	-webkit-box-shadow: 2px 2px 5px #576675;
+	-moz-box-shadow: 2px 2px 5px #576675;
+	box-shadow: 2px 2px 5px #576675;
+}
+
+input, textarea { border: 1px solid #576675;  }
+input:focus, textarea:focus { background-color: #e2e6e9; border: 1px dashed #576675; }
+
+.submit { 
+	background: #576675 url(trans2.png) repeat-x 0 0;
+	border: 1px solid #576675;
+	color: #fff;
+}
+
+
+
+
+
+
+
+

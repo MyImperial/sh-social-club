@@ -1,0 +1,46 @@
+<!-- EDITING LEFT COLUMN -->
+<div id="leftColumn">
+  <h2>Overview</h2>
+  <div id="sidebar">
+    <ul>
+    <li><a href="/accounts/total_income" title="Total Income of Shanghai VMware Foundation: Vision">Total Income</a></li>
+    <li><a href="/accounts/individual_contribution" title="Individual Contribution of Shanghai VMware Foundation: Projects">Individual Contribution</a></li>
+    <li><a href="/comments" title="Overview of Shanghai VMWare Foundation: Comments">Comments</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- EDITING RIGHT COLUMN -->
+<div id="rightColumn">
+  <h3>Total Income</h3>
+  <div class="row">
+    <div class="span8">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Title</th>
+            <th>Amount</th>
+            <th>Created At</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @income.each do |total_income| %>
+          <tr>
+            <td><%= total_income.id %></td>
+            <td><%= total_income.title %></td>
+            <td><%= sprintf("%.2f",total_income.amount) %></td>
+            <td><%= total_income.created_at.strftime("%Y-%m-%d %H:%M:%S") %></td>
+          </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
+  <h2>Details of Accounts</h2>
+  <p>This is the website for Shanghai VMware Foundation</p>
+
+  <a href="/admin/total_income">to admin page</a>
+</div>
