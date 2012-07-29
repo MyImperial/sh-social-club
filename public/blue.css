@@ -4,7 +4,7 @@ body { background: #c5ccd3 url(bg-blue.png) repeat; }
 
 #outline { border: 1px solid #576675; }
 
-#wrapper { background: #fff url(/images/border1.gif) repeat-x 0 260px; border: 15px solid #fff; }
+#wrapper { background: #fff ; border: 15px solid #fff; }
 
 #header {
 	background: #C5CCD3 url(/images/banner-blue.jpg) no-repeat;
@@ -14,7 +14,7 @@ body { background: #c5ccd3 url(bg-blue.png) repeat; }
 
 #headerBox { border: 1px solid #576675; color: #fff; }
 
-#footer { background: #fff url(/images/border2.gif) repeat-x 0 0; border-top: 1px solid #576675; }
+#footer { background: #fff url(/images/border1.gif) repeat-x 0 0; border-top: 1px solid #576675; }
 
 #navTop a:hover { background-color: #0055cc; color: #fff; }
 #navTop #current a { background-color: #0074cc; color: #fff; }

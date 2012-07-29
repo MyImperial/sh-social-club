@@ -254,6 +254,16 @@ p {
 
 html>body #sidebar li a { width: auto; }
 
+/* FOOTER */
+
+#footer {
+    float: left;
+    line-height: 2em;
+    padding: 10px 0 0;
+    text-align: center;
+    width: 100%;
+}
+
 /* SITE STYLES */
 
 h1,
