@@ -351,9 +351,9 @@ img { border: 0; }
 
 .border { padding: 5px 10px; }
 
-img.left { float: left; margin: 6px 10px 6px 0; }
-img.right {	float: right; margin: 6px 0 6px 10px;}
-img.center { display: block; margin: 6px auto; text-align: center; }
+img.left { float: left; margin: 6px 10px 6px 0; height: 150px}
+img.right {	float: right; margin: 6px 0 6px 10px; height: 150px}
+img.center { display: block; margin: 6px auto; text-align: center; height: 150px}
 
 .submit:hover, img:hover {
 	opacity:.60;
