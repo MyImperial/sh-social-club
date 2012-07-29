@@ -1,4 +1,5 @@
 require 'rubygems'
+require 'digest'
 require 'data_mapper'
 require 'sinatra'
 require 'mysql2'
@@ -19,6 +20,8 @@ end
 
 FileUtils.rm_rf(config_file) if ENV['VCAP_APPLICATION']
 use Rack::Auth::Basic do |username, password|
+  username = Digest::SHA1.hexdigest(username)
+  password = Digest::SHA1.hexdigest(password)
   [username, password] == [config['auth']['user'], config['auth']['pass']]
 end
 
